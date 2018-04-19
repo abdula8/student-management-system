@@ -5,7 +5,7 @@
  * STUDENT DATABASE MANAGEMENT SYSTEM
  * Created by Hassif Abdulahi Mustafa on 18/03/2018.
  * Copyright © 2018 Hassif Abdulahi Mustafa. All rights reserved.
-
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,6 +16,8 @@
 #include "BinaryTree.h"
 
 #define max 2 // This defines the number of marks needed
+
+
 
 
 
