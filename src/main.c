@@ -18,9 +18,6 @@
 #define max 2 // This defines the number of marks needed
 
 
-
-
-
 int main(int argc, char const *argv[])
 {
     int option = 0, exit = 0, arg;
@@ -63,7 +60,6 @@ int main(int argc, char const *argv[])
             menu();
             printf("\n\t\t\t  ** Type your Option **\n ");
             scanf("%d", &option);
-            fpurge(stdin);
             menuBinaryTree(option);
             
                 }
