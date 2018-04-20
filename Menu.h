@@ -9,9 +9,6 @@
 #ifndef Menu_h
 #define Menu_h
 
-
-#endif /* Menu_h */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -36,7 +33,7 @@ printf("\t\t\t  **      To Retrieve from a FILE              ---->          choo
 printf("\t\t\t  **      To EXIT                              ---->          choose  option '8'      **\n ");
 printf("\t\t\t  **                                                                                  **\n ");
 printf("\t\t\t  **************************************************************************************\n ");
-
+l
 }
     
 void menuLinkedList (int option) {
@@ -173,5 +170,7 @@ void menuBinaryTree (int option) {
         
 }
 
+
+#endif /* Menu_h */
 
 
