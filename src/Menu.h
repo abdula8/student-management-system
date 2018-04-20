@@ -1,10 +1,10 @@
-//
-//  Menu.h
-//  GradeBook_LinkedList_BinaryTree
-//
-//  Created by Hassif Abdulahi Mustafa on 19/04/2018.
-//  Copyright © 2018 Hassif Abdulahi Mustafa. All rights reserved.
-//
+
+/*
+ * Menu.h
+ * STUDENT DATABASE MANAGEMENT SYSTEM
+ * Created by Hassif Abdulahi Mustafa on 18/03/2018.
+ * Copyright © 2018 Hassif Abdulahi Mustafa. All rights reserved.
+ */
 
 #ifndef Menu_h
 #define Menu_h
@@ -33,7 +33,7 @@ printf("\t\t\t  **      To Retrieve from a FILE              ---->          choo
 printf("\t\t\t  **      To EXIT                              ---->          choose  option '8'      **\n ");
 printf("\t\t\t  **                                                                                  **\n ");
 printf("\t\t\t  **************************************************************************************\n ");
-l
+
 }
     
 void menuLinkedList (int option) {
@@ -61,7 +61,7 @@ switch(option){
         scanf("%s", Name);
         printf("\n Enter Subject Number : ");
         scanf("%d", &n);
-        printf("\n Insert the Mark: ");
+        printf("\n Enter the Mark: ");
         scanf("%f", &Mark);
         addingMark(Name, n, Mark);
         break;
@@ -79,22 +79,15 @@ switch(option){
         PrintStudent(Name, head);
         break;
         
-    case 5:
+    case 5: studentsReport(head); break;
         
-        studentsReport(head);
-        break;
+    case 6: writeFILE(head); break;
         
-    case 6:
-        writeFILE(head);
-        break;
+    case 7: readFILE(); break;
         
-    case 7:
-        readFILE();
-        break;
-    case 8:
-        exit = 1;
-        break;
-    default:    printf("\n\n ENTER ONLY ONE OF THE OPTIONS BELLOW\n\n");  exit = 0;
+    case 8: exit = 1;   break;
+        
+    default:printf("\n\n ENTER ONLY ONE OF THE OPTIONS BELLOW\n\n");  exit = 0;
        
 }
 }
@@ -154,17 +147,15 @@ void menuBinaryTree (int option) {
                 printf("Name \tStudent Number \tStudent Marks\n");
                 printRecord(root);
                 break;
+               
+            // Calls writeList function
+            case 6: writeList(root); break;
+              
+            //Calls readList function
+            case 7: readList(); break;
                 
-            case 6:
-                // Calls writeList function
-                writeList(root);
-                break;
-                
-            case 7:
-                //Calls readList function
-                readList();
-                break;
             case 8: exit = 1;   break;
+                
             default: printf("\n\n ENTER ONLY ONE OF THE OPTIONS BELLOW\n\n");
         }
         
