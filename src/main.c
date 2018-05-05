@@ -25,15 +25,15 @@ int main(int argc, char const *argv[])
     char l[10] = "linked";
     char b[10] = "binary";
     
-    /* checks if user inputed a valid argument, and if not
-     * then asks user to choose mode */
+    // Checks if user inputed a valid argument, and if not
+    // then asks user to choose mode */
     if(argc==1 || ((strcmp(argv[1], l)!=0) &&
                    (strcmp(argv[1], b)!=0)))
     {
         printf("***| STUDENT DATABASE MANAGEMENT SYSTEM |***"
-               "\n\nPlease Select/Enter the System you Want:\n"
-               "\n1.Linked              \n2.Binary\n");
-        scanf("%d",&arg);
+        "\n\nPlease Select/Enter the System Structure you Want:\n"
+              "\n1.Linked                     \n2.Binary\n");
+        scanf("%d", &arg);
         fpurge(stdin); // purge input for invalid characters.
         switch(arg){ case 1: strcpy(mode, l);  break;
                      case 2: strcpy(mode, b);  break; }
@@ -46,24 +46,23 @@ int main(int argc, char const *argv[])
     {
         while(exit == 0)
         {
-            fpurge(stdin);
             menu();
             printf("\n\t\t\t  ** Type your Option **\n ");
             scanf("%d", &option);
-            menuLinkedList(option);
+            fpurge(stdin);
+            switchLinkedList(option);
         }
 }  else if(strcmp(mode, b) == 0){
 
         while(exit == 0)
         {
-            fpurge(stdin);
             menu();
             printf("\n\t\t\t  ** Type your Option **\n ");
             scanf("%d", &option);
-            menuBinaryTree(option);
-            
-                }
-            }
+            fpurge(stdin);
+            switchBinaryTree(option);
         }
+     }
+}
         
 
