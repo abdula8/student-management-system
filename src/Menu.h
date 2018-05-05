@@ -24,7 +24,7 @@ printf("\t\t\t  ****************************************************************
 printf("\t\t\t  **      |       |   |   STUDENT REPORT PROGRAM BY HASSIF 2018   |   |       |       **\n ");
 printf("\t\t\t  **                                                                                  **\n ");
 printf("\t\t\t  **      To Introduce New Student             ---->          choose  option '1'      **\n ");
-printf("\t\t\t  **      To Introduce new Mark                ---->          choose  option '2'      **\n ");
+printf("\t\t\t  **      To Introduce New Mark                ---->          choose  option '2'      **\n ");
 printf("\t\t\t  **      To Remove Student                    ---->          choose  option '3'      **\n ");
 printf("\t\t\t  **      To Print a Single Report             ---->          choose  option '4'      **\n ");
 printf("\t\t\t  **      To Print Report of all Students      ---->          choose  option '5'      **\n ");
@@ -36,7 +36,7 @@ printf("\t\t\t  ****************************************************************
 
 }
     
-void menuLinkedList (int option) {
+void switchLinkedList (int option) {
     int exit = 0;
     int i, n;
     char Name[20], numberOfStudent[100];
@@ -93,7 +93,7 @@ switch(option){
 }
 
 
-void menuBinaryTree (int option) {
+void switchBinaryTree (int option) {
     int exit = 0;
     int j, k;
     char name[20], studentNumber[100];
@@ -118,14 +118,14 @@ void menuBinaryTree (int option) {
                 scanf("%s", name);
                 printf("\n Enter Subject Number out of [%d]: ", max);
                 scanf("%d", &k);
-                printf("\n insert the mark: ");
+                printf("\n Enter the Mark: ");
                 scanf("%f", &mark);
                 addMark(root, name, k, mark);
                 break;
                 
             case 3:
                 // Asks for input and passes it to delete function
-                printf("\n Enter the name to remove from the list: ");
+                printf("\n Enter a name to remove from the list: ");
                 scanf("%s", name);
                 delete(root, name);
                 printf("\n %s deleted \n", name);
