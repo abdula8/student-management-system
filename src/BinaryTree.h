@@ -255,7 +255,7 @@ struct student *search(struct student *node, char *name) {
             return NULL;
         }
     }
-    //if strcmp result > 0 we search for the tudent in left right
+    //if strcmp result > 0 we search for the student in right
     if (strcmp(name, node->name) > 0) {
         if(node->right){
             return search(node->right, name);
