@@ -27,7 +27,7 @@
 
 ### Authors
 
-    * **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
+   * **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
 
 ### Installation
     $ git clone https://github.com/hassifow/LinkedList-BinaryTree
