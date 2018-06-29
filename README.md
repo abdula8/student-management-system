@@ -6,7 +6,8 @@
 
 * Student entries are kept in a linked list or balanced binary tree (ordered alphabetically by name) with memory allocated when a new student is introduced by the user. Memory is deallocated when a user is removed.
 
-### The Menu presented to the user is as follows:
+### MENU
+$The Menu presented to the user is as follows:
 
   **************************************************************************************\n ");
   **                                                                                  **\n ");
@@ -23,7 +24,7 @@
 
 ### Authors
 
-* **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
+$ **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
 
 ### Installation
     $ git clone https://github.com/hassifow/LinkedList-BinaryTree
