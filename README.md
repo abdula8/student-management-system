@@ -7,7 +7,7 @@
 * Student entries are kept in a linked list or balanced binary tree (ordered alphabetically by name) with memory allocated when a new student is introduced by the user. Memory is deallocated when a user is removed.
 
 ### MENU
-$The Menu presented to the user is as follows:
+$ The Menu presented to the user is as follows:
 
   **************************************************************************************\n ");
   **                                                                                  **\n ");
