@@ -1,10 +1,10 @@
-# Linked List and Binary Tree Algorithms
+# STUDENT DATABASE MANAGEMENT SYSTEM
 
 ## About 
 
 * In this project I implemented a student database system using dynamic memory allocation for linked list and binary tree. The program saves the data into binary files. 
 
-* Student entries are kept in a linked list or balanced binary tree (ordered alphabetically by name) with memory allocated when a new student is introduced by the user. Memory is deallocated when a user is removed.
+* Student entries are kept in a linked list or balanced binary tree (ordered alphabetically by name) with memory allocated when a new student is introduced by the user and memory is deallocated when a user is removed.
 
 
 
