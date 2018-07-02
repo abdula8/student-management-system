@@ -30,8 +30,8 @@
    * **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
 
 ### Installation
-    $ git clone https://github.com/hassifow/LinkedList-BinaryTree
-    $ cd LinkedList-BinaryTree
+    $ git clone https://github.com/hassifow/Student-Management-System
+    $ cd Student-Management-System
     $ git status
     
     
