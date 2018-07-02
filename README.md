@@ -27,7 +27,7 @@
 
 ### Authors
 
-   * **Hassif Abdulahi Mustafa** - [LinkedList-BinaryTree](https://github.com/hassifow/LinkedList-BinaryTree)
+   * **Hassif Abdulahi Mustafa** - [Student-Management-System](https://github.com/hassifow/Student-Management-System)
 
 ### Installation
     $ git clone https://github.com/hassifow/Student-Management-System
