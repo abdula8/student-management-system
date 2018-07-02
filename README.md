@@ -27,7 +27,7 @@
 
 ### Authors
 
-   * **Hassif Abdulahi Mustafa** - [Student-Management-System](https://github.com/hassifow/Student-Management-System)
+   * **Hassif Abdulahi Mustafa** - [Student-Management-System](https://github.com/hassifow/Student-Management-System/tree/master/PROGRAM)
 
 ### Installation
     $ git clone https://github.com/hassifow/Student-Management-System
